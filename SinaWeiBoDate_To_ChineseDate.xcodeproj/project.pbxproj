@@ -18,6 +18,14 @@
 		CCE1942E1705659B00DD571E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE1942D1705659B00DD571E /* Default-568h@2x.png */; };
 		CCE194311705659B00DD571E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE194301705659B00DD571E /* ViewController.m */; };
 		CCE194341705659B00DD571E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCE194321705659B00DD571E /* ViewController.xib */; };
+		CCE1944A170565C500DD571E /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = CCE1943D170565C500DD571E /* CHANGELOG.md */; };
+		CCE1944B170565C500DD571E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1943F170565C500DD571E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1944C170565C500DD571E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CCE19440170565C500DD571E /* README.md */; };
+		CCE1944D170565C500DD571E /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CCE19442170565C500DD571E /* SinaWeibo.bundle */; };
+		CCE1944E170565C500DD571E /* SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE19444170565C500DD571E /* SinaWeibo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1944F170565C500DD571E /* SinaWeiboAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE19446170565C500DD571E /* SinaWeiboAuthorizeView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE19450170565C500DD571E /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE19449170565C500DD571E /* SinaWeiboRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CCE1945317056A6500DD571E /* NSObject+SinaDateToChinaDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE1945117056A6500DD571E /* NSObject+SinaDateToChinaDate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,20 @@
 		CCE1942F1705659B00DD571E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CCE194301705659B00DD571E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CCE194331705659B00DD571E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CCE1943D170565C500DD571E /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		CCE1943E170565C500DD571E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		CCE1943F170565C500DD571E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		CCE19440170565C500DD571E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CCE19442170565C500DD571E /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		CCE19443170565C500DD571E /* SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeibo.h; sourceTree = "<group>"; };
+		CCE19444170565C500DD571E /* SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeibo.m; sourceTree = "<group>"; };
+		CCE19445170565C500DD571E /* SinaWeiboAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthorizeView.h; sourceTree = "<group>"; };
+		CCE19446170565C500DD571E /* SinaWeiboAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthorizeView.m; sourceTree = "<group>"; };
+		CCE19447170565C500DD571E /* SinaWeiboConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboConstants.h; sourceTree = "<group>"; };
+		CCE19448170565C500DD571E /* SinaWeiboRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboRequest.h; sourceTree = "<group>"; };
+		CCE19449170565C500DD571E /* SinaWeiboRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboRequest.m; sourceTree = "<group>"; };
+		CCE1945117056A6500DD571E /* NSObject+SinaDateToChinaDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SinaDateToChinaDate.m"; sourceTree = "<group>"; };
+		CCE1945217056A6500DD571E /* NSObject+SinaDateToChinaDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SinaDateToChinaDate.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +105,7 @@
 		CCE1941D1705659B00DD571E /* SinaWeiBoDate_To_ChineseDate */ = {
 			isa = PBXGroup;
 			children = (
+				CCE1943A170565A900DD571E /* libs */,
 				CCE194261705659B00DD571E /* AppDelegate.h */,
 				CCE194271705659B00DD571E /* AppDelegate.m */,
 				CCE1942F1705659B00DD571E /* ViewController.h */,
@@ -105,6 +128,51 @@
 				CCE1942D1705659B00DD571E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCE1943A170565A900DD571E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1945117056A6500DD571E /* NSObject+SinaDateToChinaDate.m */,
+				CCE1945217056A6500DD571E /* NSObject+SinaDateToChinaDate.h */,
+				CCE1943B170565C500DD571E /* sinaweibo_ios_sdk */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		CCE1943B170565C500DD571E /* sinaweibo_ios_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1943C170565C500DD571E /* JSONKit */,
+				CCE19441170565C500DD571E /* SinaWeibo */,
+			);
+			path = sinaweibo_ios_sdk;
+			sourceTree = "<group>";
+		};
+		CCE1943C170565C500DD571E /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCE1943D170565C500DD571E /* CHANGELOG.md */,
+				CCE1943E170565C500DD571E /* JSONKit.h */,
+				CCE1943F170565C500DD571E /* JSONKit.m */,
+				CCE19440170565C500DD571E /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		CCE19441170565C500DD571E /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				CCE19442170565C500DD571E /* SinaWeibo.bundle */,
+				CCE19443170565C500DD571E /* SinaWeibo.h */,
+				CCE19444170565C500DD571E /* SinaWeibo.m */,
+				CCE19445170565C500DD571E /* SinaWeiboAuthorizeView.h */,
+				CCE19446170565C500DD571E /* SinaWeiboAuthorizeView.m */,
+				CCE19447170565C500DD571E /* SinaWeiboConstants.h */,
+				CCE19448170565C500DD571E /* SinaWeiboRequest.h */,
+				CCE19449170565C500DD571E /* SinaWeiboRequest.m */,
+			);
+			path = SinaWeibo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +231,9 @@
 				CCE1942C1705659B00DD571E /* Default@2x.png in Resources */,
 				CCE1942E1705659B00DD571E /* Default-568h@2x.png in Resources */,
 				CCE194341705659B00DD571E /* ViewController.xib in Resources */,
+				CCE1944A170565C500DD571E /* CHANGELOG.md in Resources */,
+				CCE1944C170565C500DD571E /* README.md in Resources */,
+				CCE1944D170565C500DD571E /* SinaWeibo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +247,11 @@
 				CCE194241705659B00DD571E /* main.m in Sources */,
 				CCE194281705659B00DD571E /* AppDelegate.m in Sources */,
 				CCE194311705659B00DD571E /* ViewController.m in Sources */,
+				CCE1944B170565C500DD571E /* JSONKit.m in Sources */,
+				CCE1944E170565C500DD571E /* SinaWeibo.m in Sources */,
+				CCE1944F170565C500DD571E /* SinaWeiboAuthorizeView.m in Sources */,
+				CCE19450170565C500DD571E /* SinaWeiboRequest.m in Sources */,
+				CCE1945317056A6500DD571E /* NSObject+SinaDateToChinaDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
